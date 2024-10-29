@@ -5,10 +5,10 @@ int main() {
     int choice, num, mask;
 
     while (1) {
-        printf("Choose an operation:\n1. Power of 2\n2. Reverse Bits\n3. Replace Bit Position\n4. Palindrome\n5. Exit\n");
+        printf("Choose an operation:\n1. Power of 2\n2. Reverse Bits\n3. Replace Bit Position\n4. Palindrome\n5. power\n6. Exit\n");
         scanf("%d", &choice);
 
-        if (choice == 5) break;
+        if (choice == 6) break;
 
         printf("Enter a number: ");
         scanf("%d", &num);
@@ -30,6 +30,17 @@ int main() {
                     printf("%d is a palindrome\n", num);
                 else
                     printf("%d is not a palindrome\n", num);
+                break;
+             case 5:
+               int number; 
+               printf("Enter a number: ");
+               scanf("%d", &number);
+               int result = nextPowerOfTwo(number);
+               if (result == -1) {
+                    printf("Input is out of range.\n");
+                } else {
+                    printf("Next power of two for %d is %d.\n", number, result);
+                }
                 break;
             default:
                 printf("Invalid option.\n");

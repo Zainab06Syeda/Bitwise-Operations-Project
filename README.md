@@ -28,7 +28,7 @@ The operations are implemented in separate C files and use bitwise operators for
 
 ## Roles and Responsibilities
 Each group member was responsible for one of the following operations:
-- **Power of 2**: [Name]
+- **Power of 2**: Snehitha Paruchuri
 - **Reverse Bits**: [Name]
 - **Replace Bit Position**: [Name]
 - **Palindrome Check**: Syeda Zainab

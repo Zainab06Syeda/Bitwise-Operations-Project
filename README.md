@@ -29,12 +29,12 @@ The operations are implemented in separate C files and use bitwise operators for
 ## Roles and Responsibilities
 Each group member was responsible for one of the following operations:
 - **Power of 2**: Snehitha Paruchuri
-- **Reverse Bits**: [Name]
+- **Reverse Bits**: [Dylan Throckmorton]
 - **Replace Bit Position**: [Name]
 - **Palindrome Check**: Syeda Zainab
 
 ## Compilation
 To compile the project, simply run the following command:
-
+gcc major1.c palindrome.c power.c reverse.c replace.c
 ```bash
 make

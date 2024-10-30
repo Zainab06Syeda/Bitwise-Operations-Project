@@ -8,6 +8,6 @@
 void powerOfTwo(int num);
 void reverseBits(int num);
 void replaceBit(int num);
-void checkPalindrome(int num);
+void is_palindrome(int num);
 
 #endif // MAJOR1_H

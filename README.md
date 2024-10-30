@@ -30,7 +30,7 @@ The operations are implemented in separate C files and use bitwise operators for
 Each group member was responsible for one of the following operations:
 - **Power of 2**: Snehitha Paruchuri
 - **Reverse Bits**: [Dylan Throckmorton]
-- **Replace Bit Position**: [Name]
+- **Replace Bit Position**: Veronica Fuentes
 - **Palindrome Check**: Syeda Zainab
 
 ## Compilation

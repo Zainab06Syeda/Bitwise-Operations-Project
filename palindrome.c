@@ -24,7 +24,7 @@ void print_binary(int n) {
 }
 
 // Function to check if a number's binary representation is a palindrome
-int is_palindrome(int n) {
+int checkPalindrome(int n) {
     // Compare bits from the start and end towards the center
     for (int i = 0; i < 16; i++) {
         int left_bit = (n >> (31 - i)) & 1;  // Left bit

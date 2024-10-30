@@ -2,7 +2,7 @@
 
 
 // Function to check if a number is a power of two
-int nextPowerOfTwo(int num) {
+int powerOfTwo(int num) {
     if (num < 1 || num >= 2000000000) {
         return -1; // Error case for values outside the specified range
     }

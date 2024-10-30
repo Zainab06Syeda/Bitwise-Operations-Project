@@ -35,6 +35,5 @@ Each group member was responsible for one of the following operations:
 
 ## Compilation
 To compile the project, simply run the following command:
-gcc major1.c palindrome.c power.c reverse.c replace.c
 ```bash
-make
+gcc major1.c palindrome.c power.c reverse.c replace.c
